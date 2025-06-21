@@ -73,9 +73,7 @@ LIMIT 1;
 -- 12. Rank Dealers by Sales Volume (Optional: Requires Window Functions)
 SELECT dealer_name, location, sales_count, 
        RANK() OVER (ORDER BY sales_count DESC) AS rank
-FROM (
-    SELECT d.dealer_name, d.location, COUNT(*) AS sales_count
+FROM (SELECT d.dealer_name, d.location, COUNT(*) AS sales_count
     FROM sales s
     JOIN dealers d ON s.dealer_id = d.dealer_id
-    GROUP BY d.dealer_id
-);
+    GROUP BY d.dealer_id );
