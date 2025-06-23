@@ -36,7 +36,7 @@ The repository contains a single script file:
 
 - **SQL (SQLite syntax)** – Querying, aggregation, joins, and window functions  
 - ** Excel ** –  for visualizing output data  
-- **Database Tables Simulated:** `sales`, `dealers`, `customers`
+- **Database Tables Simulated:** `sales`, `dealers`, `customers`.
 
 
 ## 📈 Sample Use Case
