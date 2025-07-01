@@ -1,6 +1,6 @@
-BMW SQL Project 🚗📊
+**BMW SQL Project 🚗📊**
 
-Author: Asemahle Zide  
+**Author**: Asemahle Zide  
 **Project Type:** SQL Data Analysis  
 **Domain:** Automotive – BMW South Africa Sales
 
